@@ -152,48 +152,62 @@
 
       <tr>
         <td>$ git ls-files --other --ignored --exclude-standard</td>
-        <td>Liste tous les fichiers exclus du suivi de version dans ce projet</td>
+        <td>
+          Liste tous les fichiers exclus du suivi de version dans ce projet
+        </td>
       </tr>
       <tr>
-        <td></td>
-        <td></td>
+        <td>$ git reset [commit]</td>
+        <td>
+          Annule tous les commits après `[commit]`, en conservant les
+          modifications localement
+        </td>
       </tr>
 
       <tr>
-        <td></td>
-        <td></td>
+        <td>$ git reset --hard [commit]</td>
+        <td>
+          Supprime tout l'historique et les modifications effectuées après le
+          commit spécifié
+        </td>
       </tr>
       <tr>
-        <td></td>
-        <td></td>
+        <td>$ git stash</td>
+        <td>
+          Enregistre de manière temporaire tous les fichiers sous suivi de
+          version qui ont été modifiés ("remiser son travail")
+        </td>
       </tr>
       <tr>
-        <td></td>
-        <td></td>
+        <td>$ git stash pop</td>
+        <td>Applique une remise et la supprime immédiatement</td>
       </tr>
       <tr>
-        <td></td>
-        <td></td>
+        <td>$ git stash list</td>
+        <td>Liste toutes les remises</td>
       </tr>
       <tr>
-        <td></td>
-        <td></td>
+        <td>$ git stash drop</td>
+        <td>Supprime la remise la plus récente</td>
       </tr>
       <tr>
-        <td></td>
-        <td></td>
+        <td>$ git fetch [nom-de-depot]</td>
+        <td>Récupère tout l'historique du dépôt nommé</td>
       </tr>
       <tr>
-        <td></td>
-        <td></td>
+        <td>$ git merge [nom-de-depot]/[branche]</td>
+        <td>Fusionne la branche du dépôt dans la branche locale courante</td>
       </tr>
       <tr>
-        <td></td>
-        <td></td>
+        <td>$ git push [alias] [branche]</td>
+        <td>Envoie tous les commits de la branche locale vers GitHub</td>
       </tr>
       <tr>
-        <td></td>
-        <td></td>
+        <td>$ git pull</td>
+        <td>
+          Récupère tout l'historique du dépôt nommé et incorpore les
+          modifications
+        </td>
       </tr>
     </table>
   </body>

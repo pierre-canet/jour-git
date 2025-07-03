@@ -5,8 +5,10 @@ table {
 
 td {
   border: solid;
+  border-radius: 5px;
   border-color: black;
   background-color: darkcyan;
+  text-align: center;
 }
 
 body {
